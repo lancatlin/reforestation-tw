@@ -1,3 +1,4 @@
 baseURL = 'https://reforestation.tw/'
 languageCode = 'zh-tw'
 title = '山林復育協會'
+theme = 'cleanwhite'

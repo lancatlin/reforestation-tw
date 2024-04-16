@@ -1,7 +1,8 @@
-baseURL = 'https://reforestation.tw/'
+baseURL = 'https://lancatlin.github.io/reforestation-tw/'
 languageCode = 'zh-tw'
 title = '山林復育協會'
 theme = 'cleanwhite'
+relativeURLs = true
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""

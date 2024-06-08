@@ -52,6 +52,12 @@ export default defineConfig({
             required: true,
           },
           {
+            type: "string",
+            name: "tags",
+            label: "標籤",
+            list: true,
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "內文",
@@ -60,5 +66,13 @@ export default defineConfig({
         ],
       },
     ],
+  },
+  search: {
+    tina: {
+      indexerToken: process.env.TINA_SEARCH_TOKEN,
+      stopwordLanguages: ["zho"],
+    },
+    indexBatchSize: 100,
+    maxSearchIndexFieldLength: 100,
   },
 });

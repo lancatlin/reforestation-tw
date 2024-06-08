@@ -1,4 +1,4 @@
-baseURL = 'https://lancatlin.github.io/reforestation-tw'
+baseURL = 'https://reforestation.github.io'
 languageCode = 'zh-tw'
 title = '山林復育協會'
 theme = 'cleanwhite'

@@ -1,2 +1,4 @@
 *.lock
 public
+node_modules
+.env

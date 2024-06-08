@@ -36,14 +36,25 @@ export default defineConfig({
           {
             type: "string",
             name: "title",
-            label: "Title",
+            label: "標題",
             isTitle: true,
+            required: true,
+          },
+          {
+            type: "boolean",
+            name: "draft",
+            label: "草稿",
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "日期",
             required: true,
           },
           {
             type: "rich-text",
             name: "body",
-            label: "Body",
+            label: "內文",
             isBody: true,
           },
         ],
